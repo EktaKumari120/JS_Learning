@@ -32,3 +32,25 @@ const myFunction = function(){
 console.log(typeof outsideTemp)
 console.log(typeof bigNumber)
 console.log(typeof myFunction)
+
+// +++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// Stack (Primitive) , Heap(Non-Primitive)
+let myYoutubeName = "robotwritingcodedotcom"
+let anotherName = myYoutubeName
+anotherName = "chaiorcode"
+
+console.log(myYoutubeName);
+console.log(anotherName);
+
+let userOne = {
+    email : "robot@gmai.com",
+    upi : "usr@byl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "changed@gmail.com"
+
+console.log(userOne.email)
+console.log(userTwo.email)
